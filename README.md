@@ -47,7 +47,7 @@ The simulation of the system is based on the closed-loop system, as the open sys
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
 
-Our presentation can be downloaded [here](presentation/Embedded video).
+Our presentation can be downloaded [6. Refrences](#6-Refrences)
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences

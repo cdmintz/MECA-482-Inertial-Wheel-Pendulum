@@ -2,14 +2,12 @@
 #### Dylan Palmer, Megan McKinney, Chris Mintz, Cole Brenner, 2021 Fall, MECA 482
 -----------------------------------------------------------------------------------------
 ## Table of Contents
-<a href="#example">Example headline</a>
-<h5><a id="example"></a>Example headline</h5>
-<a href="#intro">1. Introduction</a>
-<a href="#control">2. Control_System_Design</a>
-<a href="#math">3. Mathmatical_Modeling</a>
-<a href="#sim">4. Simulation</a>
-<a href="#pres">5. Presentation</a>
-<a href="#ref">6. Refrences</a>
+- <a href="#intro">1. Introduction</a>
+- <a href="#control">2. Control_System_Design</a>
+- <a href="#math">3. Mathmatical_Modeling</a>
+- <a href="#sim">4. Simulation</a>
+- <a href="#pres">5. Presentation</a>
+- <a href="#ref">6. Refrences</a>
 
 -----------------------------------------------------------------------------------------
 ## 1. Introduction 

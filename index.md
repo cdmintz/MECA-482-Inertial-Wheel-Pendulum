@@ -6,7 +6,7 @@
 The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
 <p align = "center">
-  <img src = "Images/Capabilities Database.PNG" height = "360px" style="margin:10px 10px">
+  <img src = "Images/Capabilities Database.PNG" style="margin:10px 10px">
 </p>
 
 #### Table of Contents
@@ -36,7 +36,7 @@ The model for the inertia pendulum was derived using the lagrangian method. For 
 -----------------------------------------------------------------------------------------
 ## 4. Simulation
 
-Matlab & hopefully CoppeliaSim walkthrough
+The simulation of the system is based on the closed-loop system, as the open system would have no feedback and, therefore, no corrective action. The diagram that shows the response of the system was created using the function lsim in Matlab. Within the diagram  To:Out(1)  is the angle relative to the vertical axis, To:Out(2) is the angular velocity of the arm, and To:Out(3) is the angular velocity of the wheel. Because the relative angle of the wheel does not have a direct effect on the system, it can be omitted from the diagram. The system performs correctly based on the defined characteristics. The settling time is approximately a second, with the percent overshoot equating to approximately fifty percent. These characteristics were derived from our capabilities database, which define the requirements of the system to oscillate multiple times.
 
 -----------------------------------------------------------------------------------------
 ## 5. Refrences

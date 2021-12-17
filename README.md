@@ -47,7 +47,7 @@ The simulation of the system is based on the closed-loop system, as the open sys
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
 
-Our presentation can be viewed <a href="https://cdmintz.github.io/MECA-482-Inertial-Wheel-Pendulum/#ref">here</a>.
+Our presentation can be viewed <a href="https://cdmintz.github.io/MECA-482-Inertial-Wheel-Pendulum/#sim">here</a>.
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences

@@ -1,7 +1,7 @@
 # Inertial Wheel Pendulum (IWP)
 #### Dylan Palmer, Megan McKinney, Chris Mintz, Cole Brenner, 2021 Fall, MECA 482
-
-#### Table of Contents
+-----------------------------------------------------------------------------------------
+## Table of Contents
 - [1. Introduction](#1-Introduction)
 - [2. Control_System_Design](#2-Control_System_Design)
 - [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)

@@ -49,9 +49,7 @@ The simulation of the system is based on the closed-loop system, as the open sys
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
 
-<div class="embed-container">
-  <iframe src="https://drive.google.com/file/d/183bMFs6sI8bI_Lp4pEBuALxx2zy1sedX/preview" width="640" height="480" allow="autoplay"></iframe>
-</div>
+{% include presentation/Embedded video}
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences

@@ -38,7 +38,9 @@ The model for the inertia pendulum was derived using the lagrangian method. For 
 ## 4. Simulation
 
 The simulation of the system is based on the closed-loop system, as the open system would have no feedback and, therefore, no corrective action. The diagram that shows the response of the system was created using the function lsim in Matlab. Within the diagram  To:Out(1)  is the angle relative to the vertical axis, To:Out(2) is the angular velocity of the arm, and To:Out(3) is the angular velocity of the wheel. Because the relative angle of the wheel does not have a direct effect on the system, it can be omitted from the diagram. The system performs correctly based on the defined characteristics. The settling time is approximately a second, with the percent overshoot equating to approximately fifty percent. These characteristics were derived from our capabilities database, which define the requirements of the system to oscillate multiple times.
-
+<p align = "center">
+  <img src = "Images/Matlab Simulation Results.png" style="margin:10px 10px">
+</p>
 -----------------------------------------------------------------------------------------
 ## 5. Refrences
  [1] Hernandez-Guzman, V. M., & Silva-Ortizoga, R. (2019). Chapter 16. In Automatic Control with Experiments (pp. 921–950). essay, Springer.

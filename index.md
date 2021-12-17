@@ -3,7 +3,8 @@
 -----------------------------------------------------------------------------------------
 ## Table of Contents
 <a href="#example">Example headline</a>
-- [1. Introduction](#1-Introduction)
+<h5><a id="example"></a>Example headline</h5>
+- <a href="#intro">Introduction</a>
 - [2. Control_System_Design](#2-Control_System_Design)
 - [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
 - [4. Simulation](#4-Simulation)
@@ -11,7 +12,7 @@
 - [6. Refrences](#6-Refrences)
 
 -----------------------------------------------------------------------------------------
-## 1. Introduction
+<h5><a id="intro"></a>Introduction</h5>
 
 The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
@@ -55,4 +56,4 @@ The simulation of the system is based on the closed-loop system, as the open sys
  
  [1] Hernandez-Guzman, V. M., & Silva-Ortizoga, R. (2019). Chapter 16. In Automatic Control with Experiments (pp. 921–950). essay, Springer.
  
-<h5><a id="example"></a>Example headline</h5>
+

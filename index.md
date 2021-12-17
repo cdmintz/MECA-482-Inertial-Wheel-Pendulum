@@ -26,7 +26,7 @@ Operational viewpoint diagrams are vital to the design of a system. These diagra
 
 To determine the dataflow of the system a logical/functional diagram is employed. This diagram shows how data interacts within this system, whether that be electrical data, or physical positional data. Shown below is the logical/functional diagram of this system. Here it is clearer to see the control loops of the system. The reaction wheel control loop, enclosed in the blue dotted line, shows how the controller can change the voltage of  the motor, and use the positional change detected by the sensor to update its voltage command to the motor. This will let the controller accurately adjust the reaction force the reaction wheel provides on the arm. The logical/functional diagram also gives insight into what kind of power sources are needed for the system. With this system it can be seen that a high voltage power source is needed for the motor. There will also need to be a lower power source for the system. In this case it is provided by a voltage step down of the high voltage battery source, to provide power to the sensors and controller. By having both a logical/functional and operational viewpoint diagram created there is a much deeper understanding of exactly how to model the system.
 <p align = "center">
-  <img src = "Images/Mech_482_Diagrams-Logical Functional Diagram.drawio.png" height = "360px" style="margin:10px 10px">
+  <img src = "Images/Mech_482_Diagrams-Logical Functional Diagram.drawio.png" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------

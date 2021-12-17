@@ -47,7 +47,7 @@ The simulation of the system is based on the closed-loop system, as the open sys
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
 
-Our presentation can be downloaded [here](#6-Refrences)
+Our presentation can be downloaded [here](presentation/MECA 482 Project Presentation.mp4)
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences

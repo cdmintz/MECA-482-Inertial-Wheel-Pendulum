@@ -1,5 +1,13 @@
 # Inertial Wheel Pendulum (IWP)
 #### Dylan Palmer, Megan McKinney, Chris Mintz, Cole Brenner, 2021 Fall, MECA 482
+
+#### Table of Contents
+- [1. Introduction](#1-Introduction)
+- [2. Control_System_Design](#2-Control_System_Design)
+- [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
+- [4. Simulation](#4-Simulation)
+- [5. Refrences](#5-Refrences)
+
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
 
@@ -8,13 +16,6 @@ The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechan
 <p align = "center">
   <img src = "Images/Capabilities Database.PNG" style="margin:10px 10px">
 </p>
-
-#### Table of Contents
-- [1. Introduction](#1-Introduction)
-- [2. Control_System_Design](#2-Control_System_Design)
-- [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
-- [4. Simulation](#4-Simulation)
-- [5. Refrences](#5-Refrences)
 
 -----------------------------------------------------------------------------------------
 ## 2. Control_System_Design

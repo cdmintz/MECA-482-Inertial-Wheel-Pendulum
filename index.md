@@ -18,11 +18,11 @@ The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechan
 Operational Viewpoint and Logical Funcional Diagrams & Explenations
 
 <p align = "center">
-  <img src = "Mech_482_Diagrams-Logical Functional Diagram.drawio.png" height = "360px" style="margin:10px 10px">
+  <img src = "Images/Mech_482_Diagrams-Logical Functional Diagram.drawio.png" height = "360px" style="margin:10px 10px">
 </p>
 
 <p align = "center">
-  <img src = "Mech_482_Diagrams-Operational Viewpoint Diagram.drawio.png" height = "360px" style="margin:10px 10px">
+  <img src = "Images/Mech_482_Diagrams-Operational Viewpoint Diagram.drawio.png" height = "360px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
@@ -38,3 +38,4 @@ Matlab & hopefully CoppeliaSim walkthrough
 
 -----------------------------------------------------------------------------------------
 ## 5. Refrences
+ [1] Hernandez-Guzman, V. M., & Silva-Ortizoga, R. (2019). Chapter 16. In Automatic Control with Experiments (pp. 921–950). essay, Springer.

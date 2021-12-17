@@ -49,9 +49,9 @@ The simulation of the system is based on the closed-loop system, as the open sys
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="presentation/MECA 482 Project Presentation.mp4">
-</video>
+<div class="embed-container">
+  <iframe src="https://drive.google.com/file/d/183bMFs6sI8bI_Lp4pEBuALxx2zy1sedX/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences

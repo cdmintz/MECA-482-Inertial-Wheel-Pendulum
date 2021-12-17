@@ -5,6 +5,9 @@
 
 The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
+<p align = "center">
+  <img src = "Images/Capabilities Database.PNG" height = "360px" style="margin:10px 10px">
+</p>
 
 #### Table of Contents
 - [1. Introduction](#1-Introduction)

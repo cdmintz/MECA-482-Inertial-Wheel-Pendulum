@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+# Inertial Wheel Pendulum (IWP)
+#### Dylan Palmer, Megan McKinney, Chris Mintz, Cole Brenner, 2021 Fall, MECA 482
+-----------------------------------------------------------------------------------------
+## 1. Introduction
 
-You can use the [editor on GitHub](https://github.com/cdmintz/MECA-482-Inertial-Wheel-Pendulum/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+#### Table of Contents
+- [1. Introduction](#1-Introduction)
+- [2. Control_System_Design](#2-Control_System_Design)
+- [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
+- [4. Simulation](#4-Simulation)
+- [5. Refrences](#5-Refrences)
+-----------------------------------------------------------------------------------------
+## 2. Control_System_Design
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Operational Viewpoint and Logical Funcional Diagrams & Explenations
 
-```markdown
-Syntax highlighted code block
+<p align = "center">
+  <img src = "Mech_482_Diagrams-Logical Functional Diagram.drawio.png" height = "360px" style="margin:10px 10px">
+</p>
 
-# Header 1
-## Header 2
-### Header 3
+<p align = "center">
+  <img src = "Mech_482_Diagrams-Operational Viewpoint Diagram.drawio.png" height = "360px" style="margin:10px 10px">
+</p>
 
-- Bulleted
-- List
+-----------------------------------------------------------------------------------------
+## 3. Mathmatical_Modeling
 
-1. Numbered
-2. List
+Mathmatical Model Construction
+  use HW 3 & cite the paper
 
-**Bold** and _Italic_ and `Code` text
+-----------------------------------------------------------------------------------------
+## 4. Simulation
 
-[Link](url) and ![Image](src)
-```
+Matlab & hopefully CoppeliaSim walkthrough
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cdmintz/MECA-482-Inertial-Wheel-Pendulum/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+-----------------------------------------------------------------------------------------
+## 5. Refrences

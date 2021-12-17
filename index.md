@@ -6,13 +6,15 @@
 - [2. Control_System_Design](#2-Control_System_Design)
 - [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
 - [4. Simulation](#4-Simulation)
-- [5. Refrences](#5-Refrences)
+- [5. Presentation](#5-Presentation)
+- [6. Refrences](#6-Refrences)
 
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
 
 The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
+A link to our [presentation](MECA 482 Project Presentation)
 
 <p align = "center">
   <img src = "Images/Capabilities Database.PNG" style="margin:10px 10px">
@@ -43,7 +45,15 @@ The simulation of the system is based on the closed-loop system, as the open sys
 <p align = "center">
   <img src = "Images/Matlab Simulation Results.png" style="margin:10px 10px">
 </p>
+
 -----------------------------------------------------------------------------------------
-## 5. Refrences
+## 5. Presentation
+
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="presentation/MECA 482 Project Presentation.mp4">
+</video>
+
+-----------------------------------------------------------------------------------------
+## 6. Refrences
  
  [1] Hernandez-Guzman, V. M., & Silva-Ortizoga, R. (2019). Chapter 16. In Automatic Control with Experiments (pp. 921–950). essay, Springer.

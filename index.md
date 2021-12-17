@@ -4,16 +4,16 @@
 ## Table of Contents
 <a href="#example">Example headline</a>
 <h5><a id="example"></a>Example headline</h5>
-- <a href="#intro">Introduction</a>
-- [2. Control_System_Design](#2-Control_System_Design)
-- [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
-- [4. Simulation](#4-Simulation)
-- [5. Presentation](#5-Presentation)
-- [6. Refrences](#6-Refrences)
+<a href="#intro">1. Introduction</a>
+<a href="#control">2. Control_System_Design</a>
+<a href="#math">3. Mathmatical_Modeling</a>
+<a href="#sim">4. Simulation</a>
+<a href="#pres">5. Presentation</a>
+<a href="#ref">6. Refrences</a>
 
 -----------------------------------------------------------------------------------------
-<h5><a id="intro"></a></h5>
 ## 1. Introduction 
+<h5><a id="intro"></a></h5>
 
 The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechanism that utilizes an actuator to rotate a reaction wheel to stabilize a pendulum in an upright position. This is an electromechanical system that uses the wheel as a mass that creates a torque and causes a pendulum to react by rotating. The IWP uses this reaction to balance the system in a vertical position. This report will focus on designing an inertia wheel pendulum system to be used as a desktop toy. This will be achieved by following the design requirements shown below.
 
@@ -23,6 +23,7 @@ The inertia wheel pendulum(IWP) was examined for this report. An IWP is a mechan
 
 -----------------------------------------------------------------------------------------
 ## 2. Control_System_Design
+<h5><a id="control"></a></h5>
 
 Operational viewpoint diagrams are vital to the design of a system. These diagrams display how all the physical components of the system are put together. This allows us to view exactly where sensors, motors, and other components can be placed to be able to drive the system. Below is the operational viewpoint diagram of this inertia wheel pendulum system. Here it is shown that two rotational sensors are needed, one to keep track of the arm’s position, and one that is used to gain rotational information of the reaction wheel. Both these are necessary, as the data on the arm is needed to know which position it is in, and the data on the reaction wheel is needed to know how much of a reaction force is being imparted by the motor. A counter weight was also deemed necessary. As this is a desk toy, it cannot be rigidly attached by the base, so a counterweight will provide the necessary counterbalance to keep the system upright. This counterweight could be composed of the controller, HMI, and power source, as well as any necessary extra added weights.
 <p align = "center">
@@ -36,11 +37,13 @@ To determine the dataflow of the system a logical/functional diagram is employed
 
 -----------------------------------------------------------------------------------------
 ## 3. Mathmatical_Modeling
+<h5><a id="math"></a></h5>
 
 The model for the inertia pendulum was derived using the lagrangian method. For this method the total kinetic and potential energy of the arm and wheel is needed, because this system has two degrees of freedom. After taking the partial derivatives of the lagrangian, the state-space functions are determined. This model defines the open-loop system for the inertia pendulum. In order to close the system, feedback is required. The state vector is returned to the input after multiplying by a constant. This constant can be determined after deciding the characteristics of the system and using the place function within Matlab. This can all be seen in the [code](MECA_482_Project_Code.m) written to describe the inertia pendulum. In Hernandez-Guzman et. al [1], the derivation of the mathematical model is described in greater detail and provides clarification for each step.
 
 -----------------------------------------------------------------------------------------
 ## 4. Simulation
+<h5><a id="sim"></a></h5>
 
 The simulation of the system is based on the closed-loop system, as the open system would have no feedback and, therefore, no corrective action. The diagram that shows the response of the system was created using the function lsim in Matlab. Within the diagram  To:Out(1)  is the angle relative to the vertical axis, To:Out(2) is the angular velocity of the arm, and To:Out(3) is the angular velocity of the wheel. Because the relative angle of the wheel does not have a direct effect on the system, it can be omitted from the diagram. The system performs correctly based on the defined characteristics. The settling time is approximately a second, with the percent overshoot equating to approximately fifty percent. These characteristics were derived from our capabilities database, which define the requirements of the system to oscillate multiple times.
 <p align = "center">
@@ -49,12 +52,14 @@ The simulation of the system is based on the closed-loop system, as the open sys
 
 -----------------------------------------------------------------------------------------
 ## 5. Presentation
+<h5><a id="pres"></a></h5>
 
 <div class="embed-container"> <iframe src="https://drive.google.com/file/d/183bMFs6sI8bI_Lp4pEBuALxx2zy1sedX/preview" width="640" height="480" allow="autoplay"> </iframe></div>
 
 -----------------------------------------------------------------------------------------
 ## 6. Refrences
- 
+<h5><a id="ref"></a></h5>
+
  [1] Hernandez-Guzman, V. M., & Silva-Ortizoga, R. (2019). Chapter 16. In Automatic Control with Experiments (pp. 921–950). essay, Springer.
  
 

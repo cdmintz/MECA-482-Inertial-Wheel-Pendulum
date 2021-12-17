@@ -10,10 +10,12 @@ Put the intro to the project here.
 - [2. Control_System_Design](#2-Control_System_Design)
 - [3. Mathmatical_Modeling](#3-Mathmatical_Modeling)
 - [4. Simulation](#4-Simulation)
+- [5. Refrences](#5-Refrences)
 -----------------------------------------------------------------------------------------
 ## 2. Control_System_Design
 
 Operational Viewpoint and Logical Funcional Diagrams & Explenations
+
 <p align = "center">
   <img src = "Mech_482_Diagrams-Logical Functional Diagram.drawio.png" height = "360px" style="margin:10px 10px">
 </p>
@@ -32,3 +34,6 @@ Mathmatical Model Construction
 ## 4. Simulation
 
 Matlab & hopefully CoppeliaSim walkthrough
+
+-----------------------------------------------------------------------------------------
+## 5. Refrences
